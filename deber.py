@@ -42,15 +42,21 @@ class Triangulo(Operaciones):
         
 
 
-
+print("\tPERIMETRO DE UN CIRCULO")
 circulo = Area(5, pi, 0, 0)
 circulo.circulo()
 
+print()
+print("\tTRANSFORMAR GRADOS FARENHEIT A CELSIUS")
 grados = Farenehit(0, 9, 0, 0)
 grados.grados()
 
+print()
+print("\tFORMULA GENERAL")
 formula = FormulaG(3, -5, 2, 0)
 formula.Formula_General()
 
+print()
+print("\tAREA DE UN TRIANGULO")
 areaT = Triangulo(3, -5, 2, 1)
 areaT.AreaTriangulo()
