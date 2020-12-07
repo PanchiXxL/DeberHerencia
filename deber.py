@@ -21,23 +21,27 @@ class Operaciones:
 class Area(Operaciones):
     def circulo(self):
         area = pi * self.valor1 ** 2
+        print("\tPRIMER EJERCICIO")
         print("El area del circulo es: {:.4}".format(area))
         
 class Farenehit(Operaciones):
     def grados(self):
         celcius = ((self.valor2-32)/1.8)
+        print("\tSEGUNDO EJERCICIO")
         print("El grado celcius es: {:.4}".format(celcius))
 
 class FormulaG(Operaciones):
     def Formula_General(self):
         x1 = (-self.valor2 + math.sqrt((self.valor2**2)-(4*self.valor1*self.valor3)))/(2*self.valor1)
         x2 = (-self.valor2 - math.sqrt((self.valor2**2)-(4*self.valor1*self.valor3)))/(2*self.valor1)
+        print("\tTERCER EJERCICIO")
         print("Valor de X1: ",x1)
         print("Valor de X2: {:.3}".format(x2))
 
 class Triangulo(Operaciones):
     def AreaTriangulo(self):
         areaTrangulo = (self.valor4*self.valor1)/2
+        print("\tCUARTO EJERCICIO")
         print("Area del triangulo es: ",areaTrangulo)
         
 
